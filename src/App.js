@@ -7,6 +7,7 @@ function App() {
     fontFamily: "'Poppins', sans-serif",
     titleFontFamily: "'Ovo', serif",
     mainBg: "#fff",
+    lineColor: "#000",
     header: {
       heading: "Concept Map",
       headingColor: "#000",

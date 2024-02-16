@@ -1,11 +1,11 @@
 import React from "react";
 import classes from "./MainComponent.module.css";
 
-const MainComponent = ({ header, ideas }) => {
+const MainComponent = ({ header, ideas, lineColor }) => {
   return (
     <div
       className={`min-h-screen flex py-10 items-center flex-col	 justify-center w-full ${classes.mainWrapper}`}
-      style={{ background: "var(--mainBg)" }}
+      style={{ background: "var(--mainBg)", "--lineColor": lineColor }}
     >
       <div
         className={classes.header}
