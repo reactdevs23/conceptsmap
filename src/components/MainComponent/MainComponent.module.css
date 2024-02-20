@@ -38,26 +38,38 @@
 }
 .ideas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
   align-items: flex-start;
   gap: 80px;
   position: relative;
   z-index: 1;
-  max-width: 1100px;
-  width: 100%;
+
   margin: 0 auto;
   position: relative;
 }
+.ideas2 {
+  grid-template-columns: repeat(2, 313.33px);
+}
+.ideas3 {
+  grid-template-columns: repeat(3, 313.33px);
+}
+.ideas4 {
+  grid-template-columns: repeat(4, 280px);
+}
+
 .ideas::after {
   content: "";
   position: absolute;
   left: 50%;
   top: 0;
   transform: translate(-50%, -70px);
-  width: 71%;
+  width: calc(100% - 313.33px);
   height: 5px;
   background: var(--lineColor);
   z-index: -1;
+}
+.ideas4::after {
+  width: calc(100% - 280px);
 }
 
 .ideaContainer {

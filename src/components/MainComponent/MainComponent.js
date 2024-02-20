@@ -17,7 +17,9 @@ const MainComponent = ({ header, ideas, lineColor }) => {
       >
         <h2 className={classes.heading}>{header.heading}</h2>
       </div>
-      <div className={classes.ideas}>
+      <div
+        className={[classes.ideas, classes[`ideas${ideas.length}`]].join(" ")}
+      >
         {ideas.map(({ mainIdea, secondaryIdea, example }, i) => (
           <div className={classes.ideaContainer}>
             <div

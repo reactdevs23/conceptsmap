@@ -147,6 +147,50 @@ function App() {
           boxBackground: "#FFF496",
         },
       },
+      {
+        mainIdea: {
+          titleContainer: {
+            title: "Main Idea",
+            titleColor: "#000",
+            border: "3px solid #000",
+            background: "#F8CFF0",
+          },
+          info: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+          infoColor: "#000",
+          border: "3px solid #000",
+          background: "#fff",
+          boxBorder: "3px solid #000",
+          boxBackground: "#F8CFF0",
+        },
+        secondaryIdea: {
+          titleContainer: {
+            title: "Secondary Idea",
+            titleColor: "#000",
+            border: "3px solid #000",
+            background: "#F8CFF0",
+          },
+          info: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+          infoColor: "#000",
+          border: "3px solid #000",
+          background: "#fff",
+          boxBorder: "3px solid #000",
+          boxBackground: "#F8CFF0",
+        },
+        example: {
+          titleContainer: {
+            title: "Example",
+            titleColor: "#000",
+            border: "3px solid #000",
+            background: "#F8CFF0",
+          },
+          info: "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+          infoColor: "#000",
+          border: "3px solid #000",
+          background: "#fff",
+          boxBorder: "3px solid #000",
+          boxBackground: "#F8CFF0",
+        },
+      },
     ],
   });
 
